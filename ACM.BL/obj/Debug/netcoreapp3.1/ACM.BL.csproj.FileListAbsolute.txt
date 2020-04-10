@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\ACM\ACM.BL\obj\Debug\netcoreapp3.1\ACM.BL.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\ACM\ACM.BL\obj\Debug\netcoreapp3.1\ACM.BL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\ACM\ACM.BL\obj\Debug\netcoreapp3.1\ACM.BL.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\ACM\ACM.BL\obj\Debug\netcoreapp3.1\ACM.BL.AssemblyInfo.cs
+C:\Users\Admin\source\repos\ACM\ACM.BL\bin\Debug\netcoreapp3.1\ACM.BL.deps.json
+C:\Users\Admin\source\repos\ACM\ACM.BL\bin\Debug\netcoreapp3.1\ACM.BL.dll
+C:\Users\Admin\source\repos\ACM\ACM.BL\bin\Debug\netcoreapp3.1\ACM.BL.pdb
+C:\Users\Admin\source\repos\ACM\ACM.BL\obj\Debug\netcoreapp3.1\ACM.BL.dll
+C:\Users\Admin\source\repos\ACM\ACM.BL\obj\Debug\netcoreapp3.1\ACM.BL.pdb
