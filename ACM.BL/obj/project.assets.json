@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Acme.Common/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Acme.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Acme.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Acme.Common/1.0.0": {
+      "type": "project",
+      "path": "../Acme.Common/Acme.Common.csproj",
+      "msbuildProject": "../Acme.Common/Acme.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Acme.Common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Admin\\.nuget\\packages\\": {},
@@ -38,7 +56,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Admin\\source\\repos\\ACM\\Acme.Common\\Acme.Common.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\ACM\\Acme.Common\\Acme.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

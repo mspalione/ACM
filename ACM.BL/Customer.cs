@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Acme.Common;
+using System;
 using System.Collections.Generic;
 
 namespace ACM.BL
 {
-    public class Customer
+    public class Customer : EntityBase, ILoggable
     {
-        public Customer()
+        public Customer(): this(0)
         {
 
         }
@@ -13,8 +14,12 @@ namespace ACM.BL
         public Customer(int customerId)
         {
             CustomerId = customerId;
+            AddressList = new List<Address>();
         }
 
+        public int CustomerType { get; set; }
+
+        public List<Address> AddressList { get; set; }
         public int CustomerId { get; private set; }
 
         public string EmailAddress { get; set; }
@@ -53,6 +58,10 @@ namespace ACM.BL
             }
         }
 
+        public string Log() => $"{CustomerId}: {FullName} Email: {EmailAddress} Status: {EntityState.ToString()}";
+
+        public override string ToString() => FullName;
+
         /// <summary>
         /// Retrieve one customer.
         /// </summary>
@@ -69,7 +78,7 @@ namespace ACM.BL
         /// Validates the customer data.
         /// </summary>
         /// <returns></returns>
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 

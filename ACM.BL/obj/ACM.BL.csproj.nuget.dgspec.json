@@ -31,7 +31,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Admin\\source\\repos\\ACM\\Acme.Common\\Acme.Common.csproj": {
+                "projectPath": "C:\\Users\\Admin\\source\\repos\\ACM\\Acme.Common\\Acme.Common.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -59,6 +63,17 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\Admin\\source\\repos\\ACM\\Acme.Common\\Acme.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ACM\\Acme.Common\\Acme.Common.csproj",
+        "projectName": "Acme.Common",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\ACM\\Acme.Common\\Acme.Common.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
